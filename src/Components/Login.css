@@ -1,0 +1,165 @@
+*  {
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+.login
+{
+    background-image: url("../Images/bg1\ \(2\).png");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.staff-login
+{
+    background-image: url("../Images/bg1\ \(2\).png");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180vh;
+.pagescover{
+    background-color: rgb(63, 34, 129);
+    opacity: 0.7;
+    position:absolute;
+    left:65%;
+    top:15%;
+    border-radius: 19px;
+    height: 70vh;
+    width: 67vh;
+    background-size: cover;
+    color: white;
+    display: flex; 
+}
+}
+.student-login
+{
+    background-image: url("../Images/bg1\ \(2\).png");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+.pagecover{
+    background-color: rgb(63, 34, 129);
+    opacity: 0.7;
+    position:absolute;
+    left:65%;
+    top:15%;
+    border-radius: 15px;
+    height: 70vh;
+    width: 67vh;
+    background-size: cover;
+    color: white;
+    display: flex; 
+}
+}
+
+.login-as-student h2
+{
+    
+        position: absolute;
+       left:72%;
+       top:20%;
+}
+.login-as-staff h2
+{
+    position: absolute;
+       left:74%;
+       top:20%;
+}
+#cover
+{
+    
+    background-color: rgb(63, 34, 129);
+    opacity: 0.7;
+    position:absolute;
+    left:65%;
+    top:22%;
+    border-radius: 15px;
+    height: 50%;
+    width: 67vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+}
+
+#formContent
+{
+ /* position: absolute;
+    left: 17%;
+    top: 20%; */
+    display: flex;
+}
+#formContent h2{
+   position: absolute;
+   left:78%;
+   top:25%;
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+}
+.loginuser
+{
+    left:69%;
+    top:36%;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+.Aloginuser
+{
+    left:69%;
+    top:36%;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+.in-put-user
+{
+    left:80%;
+    top:36%;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+.loginpassword
+{
+    left:69%;
+    position:absolute;
+    top:46%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+.in-put-password
+{
+    left:80%;
+    top:46%;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+.login-btn
+{
+    position: absolute;
+    left:79%;
+    top:59%;
+    border: none;
+    border-radius: 10%;
+    padding: 10px;
+    background-color: rgb(106, 193, 204);
+}
+.btn{
+    position:absolute;
+    left:71%;
+    top:70%;
+    
+}
+@media only screen and (min-width: 1024px) {
+  #cover{
+    display:flex;
+  }
+  .login{
+    display: flex;
+  }
+} 

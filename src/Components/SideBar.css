@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #cda1f77c;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  
+  .sidebar li {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar li.active {
+    background-color: #7035a7;
+    color: white;
+  }
+  
+  .sidebar li:hover:not(.active) {
+    background-color: #987fb4;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar li {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar li {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  /* performance css */
+  .piechart
+  {
+    position: absolute;
+    left:45%;
+    top:30%;
+  }
+  .barchart
+  {
+    position: absolute;
+    left:20%;
+    top:30%;
+  }
+.navbarinredux
+{
+  position: absolute;
+  left:73%;
+}
+.performnace-of-year
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: black;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 2%;
+  text-decoration: underline;
+}
+.barcharth1{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: black;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bolder;
+  position: absolute;
+  top: 110%;
+  left:45%;
+}

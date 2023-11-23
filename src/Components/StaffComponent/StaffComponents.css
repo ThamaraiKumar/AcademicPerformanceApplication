@@ -1,0 +1,430 @@
+.text-primary {
+    color: #5a8dee !important;
+  }
+  .staff-sidebar-body
+  {
+    margin: 0;
+    box-sizing: 0;
+  }
+  .btn-primary-sidebar,.btn-primary-side-menu-bar {
+    border-color: #9258d4 !important;
+    background-color: #9877ac !important;
+    color: #ffffff;
+  }
+  .btn-primary-side-menu-bar
+  {
+    top: 5%;
+    left: 6%;
+    position: fixed;
+  }
+  .btn-primary-sidebar{
+    margin-top: -156%;
+  }
+  .shadow-md {
+    box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+  }
+  .Staffnavbar {
+    border-radius: 5px;
+    padding: 10px;
+    font-family: cursive;
+    font-size: x-large;
+    background-color: rgb(212, 152, 212);
+  }
+  .Staffsidebar {
+    width: 280px;
+    min-height: 100vh;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1;
+    transition: 0.5s;
+    background-color: rgb(243, 204, 255);
+  }
+  .Staffsidebar.active {
+    left: 0;
+  }
+  .sd-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    
+  }
+  .Staffsidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .Staffsidebar-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .sd-body {
+    padding: 15px;
+    max-height: calc(100vh - 67px);
+    overflow-x: hidden;
+  }
+  .sd-body ul {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .staff-sidebar-body{
+    display: flex;
+  }
+  .sd-body ul li {
+    list-style: none;
+    margin-bottom: 8px;
+  }
+  .sd-body ul li .sd-link {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 16px;
+    color: #000000;
+    font-weight: bold;
+    background-color: #8d29ac;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  /* course */
+  .card1-course
+  {
+    display: grid;
+    margin-top:4%;
+    margin-left: 2%;
+    flex-direction: column;
+  }
+  .card2-course
+  {
+    display: grid;
+    flex-direction: column;
+    position: absolute;
+    top:22%;
+    left:34%;
+    width: 34%;
+  }
+  .card3-course
+  {
+    display: grid;
+    flex-direction: column;
+    position: absolute;
+    top:22%;
+    left:64%;
+    width: 34%;
+  }
+  .add-btn-course
+  {
+    border-radius: 15px;
+    background-color: #9258d4;
+    position: absolute;
+    display: flex;
+    font-style: italic;
+    font-weight: bold;
+    left:85%;
+    top:78%;
+    padding: 12px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  }
+  /* Add course */
+  .form-container {
+    width: 400px;
+    background: linear-gradient(#cfcdcd, #ffffff) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    position: absolute;
+    top:34%;
+    left:33%;
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .form-container .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #000000;
+  }
+  
+  .form-container .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+  }
+  
+  .form-container .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: #717171;
+    font-weight: 600;
+    width: 40%;
+    background: #313131;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background-color: #7a5c7c;
+    border-color: #fff;
+  }
+  /* Student Details */
+  .student-details-in-staff
+  {
+    margin-left: 23%;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  /* staff profile */
+  .xp-social-profile-avatar img {
+    border: 5px solid #fff;
+    margin-top: -10px;
+    background-color: azure;
+  }
+  .xp-social-profile-avatar .xp-social-profile-live {
+    position: absolute;
+    bottom: 15px;
+    margin: 0px -20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* border: 2px solid #ffffff; */
+  }
+  
+  .text-black {
+      color: #000000 !important;
+  }
+  /* .mb-1, .my-1 {
+      margin-bottom: .25rem!important;
+  }
+  .mt-1, .my-1 {
+      margin-top: .25rem!important;
+  } */
+  .h5, h5 {
+      font-size: 1.25rem;
+  }
+  
+  /* .card-header:first-child {
+      border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+  }
+  .card-header {
+      border-bottom: 1px solid rgba(85, 85, 85, 0.05);
+  }
+  .bg-white {
+      background-color: #ffffff !important;
+  } */
+  
+  .card-profile {
+      border: none;
+      box-shadow: 0 0 30px 0 rgba(200, 200, 200, 0.2);
+      position: absolute;
+      left:35%;
+      border-radius: 10px;
+      height: fit-content;
+      color: #000000;
+      width: 25%;
+      top:24%;
+      background-color: rgb(179, 179, 97);
+  }
+  .profile-title h5{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .m-b-30 {
+      margin-bottom: 30px;
+  }
+  .card-title 
+  {
+    position:absolute;
+    display: flex;
+    left:54%;
+    top:23%;
+    font-family:cursive;
+  }
+  .update-button
+  {
+    color: #ffffff;
+    background-color: #8d29ac;
+    position: absolute;
+    border-radius: 13px;
+    margin-top: 25%;
+    margin-left: -5%;
+  }
+
+  /* assignment css */
+  .assignmentform {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: linear-gradient(45deg, #330808, 
+    #3a2c09);
+    border-radius: 2.5em;
+    padding: 30px;
+    width: 300px;
+    height: 350px;
+    margin-left: 35%;
+    margin-top: 5%;
+  }
+  
+  .assignmentform::before {
+    content: '';
+    background-image: linear-gradient(45deg, #ff0000, 
+    #ffb700);
+    height: 358px;
+    width: 309px;
+    position: absolute;
+    margin-top: -34px;
+    margin-left: px;
+    z-index: -1;
+    border-radius: 2.7em;
+  }
+  
+  .assignmentbutton {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background: #ff5900;
+    color: black;
+    padding: 0.7em 5.5em;
+    display: flex;
+    align-items: center;
+    border: 2px solid #66da4300;
+    border-radius: 5em;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .assignmentbutton:hover {
+    border: 2px solid #ff5900;
+    background: #00000000;
+    color: #ff5900;
+  }
+  
+  .assignmentbutton:active {
+    border: 2px solid #66da4300;
+    background: #ff5900;
+    color: black;
+  }
+  
+  .assignmentinput {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #66da4300;
+    border-bottom: 1px solid #ff5900;
+    outline: none;
+    background-color: transparent;
+    color: #ff5900;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+  }
+  
+  .assignmentinput:focus {
+    border: 1px solid #66da4300;
+    border-bottom: 1px solid #ff5900;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .assignmentinput::placeholder {
+    color: #9b725b;
+  }
+  
+  .assignmenttextarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: calc(100% - 10px);
+    padding: 8px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 1px solid #66da4300;
+    border-bottom: 1px solid #ff5900;
+    outline: none;
+    background-color: transparent;
+    color: #ff5900;
+  }
+  
+  .assignmenttextarea::placeholder {
+    color: #9b725b;
+  }
+  
+  .assignmenttextarea:focus {
+    border: 1px solid #66da4300;
+    border-bottom: 1px solid #ff5900;
+    background-color: transparent;
+    color: white;
+  }
