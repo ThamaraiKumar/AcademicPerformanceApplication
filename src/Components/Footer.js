@@ -20,7 +20,7 @@ function Footer() {
                 <div className="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" >
                     <h3 className="f-title f_600 t_color f_size_18">Get in Touch</h3>
                     <p>Don’t miss any updates of our experience!</p>
-                    <form className="f_subscribe_two mailchimp"  novalidate="true" _lpchecked="1">
+                    <form className="f_subscribe_two mailchimp"  noValidate={true} _lpchecked="1">
                     <Link to="mailto:email@example.com" style={{textDecoration:'none'}}><input type="text" name="EMAIL" className="form-control memail" placeholder="Email"/></Link>
                         <button className="btn btn_get btn_get_two" type="submit">JOIN WITH US</button>
                         <p className="mchimp-errmessage"></p>

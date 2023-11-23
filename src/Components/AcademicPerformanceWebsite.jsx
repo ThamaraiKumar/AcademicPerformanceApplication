@@ -16,7 +16,7 @@ function AcademicPerformanceWebsite() {
     <Link to="/apw"><li>Home</li></Link>
     <a href="#footerhome"><li>Contact</li></a>
     <Link to="/apw"><li>About</li></Link>
-    <Link to="/"><li><button className='get-started-btn'>GET STARTED</button></li></Link>
+    <Link to="/login"><li><button className='get-started-btn'>GET STARTED</button></li></Link>
     </ul>
     </div>
     <img src={image} alt='bg'  className='image-poowerful-weapon-bg' height={700}/>

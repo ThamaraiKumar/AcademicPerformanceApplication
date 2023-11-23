@@ -36,8 +36,9 @@ function App() {
     <div className="App">
     <BrowserRouter>
     <Routes>
-    <Route path="/" element={<Login/>}/>
+    <Route path="/login" element={<Login/>}/>
     
+    <Route path="/" element={<AcademicPerformanceWebsite/>}/>
     <Route path="/staffdashboard" element={<StaffProfile/>}/>
     <Route path="/studentdashboard" element={<StudentDashBoard/>}/>
     <Route path="/*" element={<NotFound/>}/>

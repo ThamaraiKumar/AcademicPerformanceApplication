@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../StaffComponent/StaffComponents.css'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseFullscreenIcon from '@mui/icons-material/CloseFullscreen';
 
@@ -10,6 +10,18 @@ function StudentSideBar() {
     const ToggleSidebar = () => {
         isOpen === true ? setIsopen(false) : setIsopen(true);
     }
+
+
+
+    const nav=useNavigate();
+    const logout = () => {
+    localStorage.removeItem('token');
+    localStorage.removeItem('emailid');
+    localStorage.removeItem('role');
+    localStorage.removeItem('name');
+    nav("/")
+}
+
   return (
     <div className='staff-sidebar-body'>
     <div className="container-fluid mt-3">
@@ -34,7 +46,7 @@ function StudentSideBar() {
                 <li><Link to ="/myprofile" className="sd-link">PROFILE</Link></li>
                 <li><Link to ="/student/viewcourse" className="sd-link">COURSES</Link></li>
                 <li><Link to ="/view/attendance" className="sd-link">ATTENDANCE</Link></li>
-                <li><Link to ="/" className="sd-link">LOGOUT</Link></li>
+                <li><Link to ="/" className="sd-link" onClick={logout}>LOGOUT</Link></li>
             </ul>
         </div>
     </div>

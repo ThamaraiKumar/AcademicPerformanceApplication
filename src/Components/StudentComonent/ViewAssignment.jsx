@@ -3,6 +3,7 @@ import './StudentComponent.css'
 import StudentCourseBar from './StudentCourseBar'
 import { Link } from 'react-router-dom'
 
+
 function ViewAssignment() {
   return (
     <div>
@@ -26,7 +27,7 @@ function ViewAssignment() {
         </progress>
       </div>
     </label>
-    <Link to="/student/viewcourse" style={{textDecoration:'none',color:'inherit'}}><button type='submit' classNameName='btn submit-assginment'>Submit</button></Link>
+    <Link to="/student/viewcourse" style={{textDecoration:'none',color:'inherit'}}><button type='submit' className='btn submit-assginment'>Submit</button></Link>
     </form>
     </div>
   )

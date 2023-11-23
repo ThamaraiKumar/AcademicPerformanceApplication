@@ -7,6 +7,7 @@
 }
 
 
+
 .new_footer_top {
     padding: 120px 0px 270px;
     position: relative;
@@ -143,7 +144,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .new_footer_top .f-title {
     margin-bottom: 30px;
-    color: #5d5e26;
+    color: #2e2e2d;
 }
 .f_600 {
     font-weight: 600;

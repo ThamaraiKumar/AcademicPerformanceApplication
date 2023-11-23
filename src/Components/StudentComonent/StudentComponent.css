@@ -152,10 +152,11 @@
     margin-left: 24%;
 }
 /* view attendance */
-.attendance-page h3
+.attendance-page h3,h2
 {
     word-spacing: 2rem;
     display: grid;
+    color: black;
     
 }
 .attendance-page h4
@@ -171,7 +172,7 @@
 }
 .attendance-bg
 {
-    background-image: url("https://o.remove.bg/downloads/b5702cdd-17a1-470b-a663-49692707a93f/lovepik-students-attending-classes-png-image_400511877_wh1200-removebg-preview.png");
+    background-image: url("D:\FullStack\academicperformance\src\Images\viewattendanceBG.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,15 +186,15 @@
   grid-gap: 50px;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   margin-left: 20%;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   font-family: "Baloo Paaji 2", cursive;
 }
 
 .profile-card {
-  background-color: #222831;
-  height: 27rem;
+  background-color: #797979;
+  height: 25rem;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
